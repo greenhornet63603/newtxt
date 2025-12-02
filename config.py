@@ -1,40 +1,41 @@
 import os
 from os import getenv
 
+# ------------------------------------------------
+API_ID = int(os.environ.get("API_ID", "27400172"))
+# ------------------------------------------------
+API_HASH = os.environ.get("API_HASH", "56d0a75c5f9a9de6beb5452aa63c2d36")
+# ----------------D--------------------------------
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8040470417:AAHM6Jqwy28x0-78UbdQtyQg500dzoBokqI")
+# -----------------A-------------------------------
+BOT_USERNAME = os.environ.get("@Noobkacpbot")
 
-
-# ------------------------------------------------
-API_ID = int(os.environ.get("API_ID", "24869695"))
-# ------------------------------------------------
-API_HASH = os.environ.get("API_HASH","5ee98927939d175ca953297fbe309f37")
-# ------------------------------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8498939480:AAHQKaR8thRBq53CsRrKH20xVlK8zDNMg7g")
-# ------------------------------------------------
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Nikhilbhaiextractorbot")
-BOT_TEXT = "NIKHIL BHAI 💎 EXTRACTOR"
-# ------------------------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID", "7445620075"))
-# ------------------------------------------------
+BOT_TEXT = "NOOB 💎 EXTRACTOR"
+# ------------------X------------------------------
+OWNER_ID = int(os.environ.get("OWNER_ID", "7540570087"))
+# ------------------X------------------------------
 # //LOG CHANNEL ID 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002702049353"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003475251323"))
 
 # //FORCE_CHANNEL_ID
-CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002715248394")) 
+CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1003414109205")) 
 # ------------------------------------------------
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://editingtution99:kLKimOFEX1MN1v0G@cluster0.fxbujjd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://greenhornet63603:CvnxnjzknPLxYOfo@cluster0.qif4g18.mongodb.net/?appName=Cluster0"")
+
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1003475251323"))
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002284279185"))
-# -----------------------------------------------
-join = '<a href="https://t.me/NK08BOT">✳️ JOIN BACKUP</a>'
+join = '<a href="https://t.me/noobcpextbot">✳️ JOIN BACKUP</a>'
 # -----------------------------------------------
 UNSPLASH_ACCESS_KEY = 'RabDRmuXXBobanmwwbvpP5LwoG4J8ox34y5Sstz-9jk'
 # -----------------------------------------------
 UNSPLASH_QUERY = 'animal baby'
 # -----------------------------------------------
-ADMIN_BOT_USERNAME = "NK08BOT" #without @
+ADMIN_BOT_USERNAME = "noobcpextbot" #without @
 
 THUMB_URL = os.environ.get("THUMB_URL", "https://img.freepik.com/premium-photo/black-car-is-driving-down-road_951586-147043.jpg")
 
+
+                           
 
 
 
